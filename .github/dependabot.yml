@@ -10,7 +10,3 @@ updates:
         patterns:
           - "@angular/*"
           - "@angular-devkit/*"
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: monthly

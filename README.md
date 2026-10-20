@@ -1,7 +1,5 @@
 # angular-showcase
 
-[![CI](https://github.com/MahmoudNasr3195/angular-showcase/actions/workflows/ci.yml/badge.svg)](https://github.com/MahmoudNasr3195/angular-showcase/actions/workflows/ci.yml)
-
 A modern Angular 22 portfolio, built to show how I structure a real, bilingual, production-minded app. It is the open version of my personal website, [mahmoudibrahimnasr.com](https://mahmoudibrahimnasr.com/en/).
 
 ## What it demonstrates
