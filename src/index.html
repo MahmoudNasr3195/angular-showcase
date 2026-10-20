@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <title>Mahmoud Ibrahim Nasr — Senior Frontend Engineer (Angular)</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Mahmoud Ibrahim Nasr — Senior Frontend Engineer specialising in Angular, based in Riyadh, Saudi Arabia.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mahmoud Ibrahim Nasr | محمود إبراهيم نصر">
+  <meta property="og:title" content="Mahmoud Ibrahim Nasr | محمود إبراهيم نصر — Senior Frontend Engineer (Angular)">
+  <meta property="og:description" content="Senior Frontend Engineer specialising in Angular, building systems for King Saud University. Riyadh, Saudi Arabia.">
+  <meta property="og:url" content="https://mahmoudibrahimnasr.com/">
+  <meta property="og:image" content="https://mahmoudibrahimnasr.com/og/og-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mahmoud Ibrahim Nasr, Senior Frontend Engineer (Angular), cartoon avatar in front of the Riyadh skyline">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mahmoud Ibrahim Nasr | محمود إبراهيم نصر">
+  <meta name="twitter:description" content="Senior Frontend Engineer (Angular) · Riyadh">
+  <meta name="twitter:image" content="https://mahmoudibrahimnasr.com/og/og-en.jpg">
+  <link rel="icon" type="image/png" href="brand/logo-original.png">
+  <!-- Set theme/lang/dir before first paint so there is no flash. -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      var theme = 'light';
+      try {
+        var saved = localStorage.getItem('theme');
+        // First visit: pick by the visitor's local time (day 06:00-17:59 light, evening and night dark).
+        // Once the visitor uses the toggle, that choice is saved and wins on later visits.
+        var h = new Date().getHours();
+        theme = saved === 'dark' || saved === 'light' ? saved : (h >= 6 && h < 18 ? 'light' : 'dark');
+      } catch (e) {}
+      d.setAttribute('data-theme', theme);
+      var lang = location.pathname.indexOf('/ar') === 0 ? 'ar' : 'en';
+      d.lang = lang;
+      d.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    })();
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
